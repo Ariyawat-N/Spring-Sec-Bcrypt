@@ -1,4 +1,4 @@
-package com.ging.springsecdemo;
+package com.ging.springsecdemo.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
