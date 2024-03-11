@@ -14,7 +14,7 @@ import java.util.List;
 public class StudentController {
     List<Student> students = new ArrayList<>(List.of(
             new Student(1,"Ging","SpringBoot"),
-            new Student(2,"Ploy","Golang")
+            new Student(2,"Gingeiei","Golang")
             ));
     @GetMapping("csrf-token")
     public CsrfToken getCsrfToken(HttpServletRequest request){
